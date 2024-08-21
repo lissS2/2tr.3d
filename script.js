@@ -6,14 +6,14 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Assim que saiu da escola você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
+        enunciado: "Em sua visão, a IA é benéfica para a sociedade nos dias atuais?",
         alternativas: [
             {
-                texto: "Isso é assustador!",
+                texto: "Sim,pois existem vários programas que facilitam os trabalhos profissionais e na escola também, além das outras diversas tecnologia avançadas que a IA nos proporcionou, como os carros autônomos, por exemplo",
                 afirmacao: "No início ficou com medo do que essa tecnologia pode fazer. "
             },
             {
-                texto: "Isso é maravilhoso!",
+                texto: "Não, eu acredito que a IA tenha nos deixado cada vez menos indepentes e preguiçosos, tendo em vista que não precisamos mais nos esforçar e pensar para realizar atividades de grande desempenho, também nos deixando longe do contato e conversa com outras pessoas fisicamente",
                 afirmacao: "Quis saber como usar IA no seu dia a dia."
             }
         ]
@@ -75,7 +75,6 @@ const perguntas = [
 
 let atual = 0;
 let perguntaAtual;
-let historiaFinal = "";
 
 function mostraPergunta() {
     if (atual >= perguntas.length) {
@@ -99,14 +98,10 @@ function mostraAlternativas(){
 
 function respostaSelecionada(opcaoSelecionada) {
     const afirmacoes = opcaoSelecionada.afirmacao;
-    historiaFinal += afirmacoes + " ";
-    atual++;
     mostraPergunta();
 }
 
 function mostraResultado() {
-    caixaPerguntas.textContent = "Em 2049...";
-    textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
 }
 
