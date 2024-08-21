@@ -54,9 +54,11 @@ const perguntas = [
 
 let atual = 0;
 let perguntaAtual;
+let historiaFinal = "";
 
 function mostraPergunta() {
     if(atual >= perguntas.length){
+
         return;
     }
     perguntaAtual = perguntas[atual];
@@ -75,8 +77,16 @@ function mostraAlternativas() {
 }
 
 function respostaSelecionada(opcaoSelecionada){
+        const afiramcoes = opcaoSelecionada.afirmacao;
+        historiaFinal += afiramcoes + " ";
         atual++;
         mostraPergunta();
+}
+
+function mostraResultado(){
+    caixaPerguntas.textContent = "Obrigado pela colaboração!";
+    textoResultado.textContent = historiaFinal;
+    caixaAlternativas.textContent = "";
 }
 
 mostraPergunta();
