@@ -10,42 +10,50 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Sim,pois existem vários programas que facilitam os trabalhos profissionais e na escola também, além das outras diversas tecnologia avançadas que a IA nos proporcionou, como os carros autônomos, por exemplo",
+                afirmação: "Obrigado!"
             }, 
             {
                 texto: "Não, eu acredito que a IA tenha nos deixado cada vez menos indepentes e preguiçosos, tendo em vista que não precisamos mais nos esforçar e pensar para realizar atividades de grande desempenho, também nos deixando longe do contato e conversa com outras pessoas fisicamente",
+                afirmação: "Obrigado!"
             }
         ]
     },
     {
-        enunciado: "Com a descoberta desta tecnologia, chamada Inteligência Artificial, uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
+        enunciado: "Você acredita que possui algum perigo ético relacionado às tecnologias?",
         alternativas: [
             {
-                texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
+                texto: "Sim, a invasão de privacidade e os golpes comprovam isso.",
+                afirmação: "Obrigado!"
             },
             {
-                texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
+                texto: "Não, hoje em dia as tecnologias estão avançadas o suficiente para previnir tais questões.",
+                afirmação: "Obrigado!"
             }
         ]
     },
     {
-        enunciado: "Após a elaboração do trabalho escrito, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
+        enunciado: "Na sua opinião, a inteligência artificial é perigosa para nós humanos?",
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
+                texto: "Não, pois somos nós que controlamos as máquinas, elas não fazem nada sozinhas.",
+                afirmação: "Obrigado!"
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
+                texto: "Sim, acredito que as máquinas ainda vão dominar a humanidade.",
+                afirmação: "Obrigado!"
             }
         ]
     },
     {
-        enunciado: "Você tem um trabalho em grupo de biologia para entregar na semana seguinte, o andamento do trabalho está um pouco atrasado e uma pessoa do seu grupo decidiu fazer com ajuda da IA. O problema é que o trabalho está totalmente igual ao do chat. O que você faz? ",
+        enunciado: "Para você, a IA irá gerar mais ou menos empregos no futuro?",
         alternativas: [
             {
-                texto: "Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
+                texto: "Acredito que a área de TI irá crescer muito, gerando muito mais possibilidades de empregos e profissões,",
+                afirmação: "Obrigado!"
             },
             {
-                texto: "O chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda máquina erra, por isso revisar o trabalho e contribuir com as perspectivas pessoais é essencial.",
+                texto: "Acredito que as máquinas irão gerar muito desemprego futuramente, visando que substituirão muitos serviços realizados por nós.",
+                afirmação: "Obrigado!"
             }
         ]
     },
