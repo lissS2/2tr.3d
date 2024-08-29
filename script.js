@@ -62,7 +62,7 @@ const perguntas = [
 
 let atual = 0;
 let perguntaAtual;
-let historiaFinal = "";
+let historiaFinal = "Obrigado!";
 
 function mostraPergunta() {
     if(atual >= perguntas.length){
